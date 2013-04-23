@@ -1,0 +1,99 @@
+.bannercontainer {  
+		padding:5px;		
+		width:960px;	
+		position:relative;
+		position:relative;	
+		margin-left:auto;
+		margin-right:auto;	
+		overflow:hidden;
+	
+	}
+ 
+  .banner{		
+		width:960px;
+		height:490px;
+		position:relative;
+		overflow:hidden;			
+   }
+   
+@media only screen  and (max-width: 959px) {			
+ 		  .banner, .bannercontainer, .responsive {	width:700px; height:412px;}	
+		   #slider 	{	margin-top: -80px;	}
+		   .wrapper {width: 700px;}	
+		   ul.none{ margin-left: 10px; float: none;}
+		   .right { width: 75%}
+	           header {height: auto;}
+	          .top img, .bottom img { margin-left: 30px;}
+		   h1 a { float: none;}
+		  footer {padding-left: 10px;}
+		   .coll2 {width: 18%;}
+		   .caption a {font-size: 0.6em !important;}
+		   .very_big_white2 a img { margin-top: 12px !important;}
+	 }
+  
+@media only screen and (max-width: 768px) {
+		   .banner, .bannercontainer { width:610px; height:auto;}	
+		   #slider {margin-top: 30px;	}
+		   .wrapper {width: 610px;}		
+		   .right { width: 75%}
+		   header {height: auto;}
+		   h1 a { float: none;}
+		   ul.none{ font-size: 12px; float: none;}
+		   .left { float:none; width: auto;}
+		   .right {padding-left: 10px; width: 100%}
+		   .right p {padding-right: 30px;}
+		   .caroufredsel_wrapper {width: auto;}
+		   .image_carousel { padding: 0 10px;}
+		   .quarter {width: 50%;}
+		   .caption a {font-size: 0.7em !important;}
+		   
+		   
+		   
+	}
+   
+  @media only screen and (max-width: 480px) {
+	  		
+			.banner, .bannercontainer {display: none;}
+			.wrapper {width: 310px;}		
+		  .right { width: 75%}
+		   header {height: auto;}
+		   h1 > a { float: none;}
+		   nav { float: none;}
+		   ul.none{ font-size: 12px;}
+		  .left { float:none; width: auto;}
+		  .right {padding-left: 10px; width: 100%;}	
+			 .caroufredsel_wrapper {width: auto;}	
+			.image_carousel { padding: 0 10px;}	
+			.top img, .bottom img { margin-left: 30px;}
+			#logo { padding-top: 20px;}
+			#slider {margin-top: 1px; padding-top: 20px;}
+			nav ul.none {display: none;}
+		    nav select {border: 1px solid grey;
+   					   display: inline-block;
+    				   	   margin-bottom: 20px;
+					   margin-left: 10px;
+    				   width: 90% !important;
+					   color: #2d2d2d;
+					   font-family: 'Open Sans', sans-serif;
+					   font-size: 0.75em;
+					   }	
+			
+			
+			/*FOOTER*/
+			.dotted_2 {background: none;}
+			.right p {margin-right: 20px; font-size: 0.7em;}
+			.coll1, .coll2 {width: 100%;} 
+			.quarter { margin: 30px 0; 
+					   width: 100%; 
+					   border-top: 1px solid grey; 
+					   float: none;
+					   padding-top: 20px;
+					   }
+		    footer { font-size: 0.7em;}
+   }
+
+
+   
+  
+				
+
